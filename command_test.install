@@ -1,0 +1,5 @@
+lib: [
+  "_build/install/default/lib/command_test/META"
+  "_build/install/default/lib/command_test/dune-package"
+  "_build/install/default/lib/command_test/opam"
+]
