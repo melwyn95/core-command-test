@@ -1,0 +1,4 @@
+(library (name signal_unix)
+ (flags (:standard -w -6))
+ (libraries core_kernel.caml_unix core_kernel.core_unix core_kernel.core)
+ (c_names signal_unix_stubs) (preprocess (pps ppx_jane)))
